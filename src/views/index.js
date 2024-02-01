@@ -1,4 +1,4 @@
-import Home from "./home/home";
+import Home from "./Home/Home";
 import Aboutus from "./Aboutus/Aboutus";
 
 export {
