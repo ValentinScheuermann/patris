@@ -11,6 +11,7 @@ const Home = () => {
   return (
     <div>
         <Navbar/>
+        <Divider/>
         <Carousel/>
         <Divider/>
         <Cards/>
