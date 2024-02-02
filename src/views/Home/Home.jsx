@@ -4,7 +4,8 @@ import {
     Carousel,
     Footer,
     Cards,
-    Divider
+    Divider,
+    Stats
 } from '../../components/index';
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
         <Navbar/>
         <Divider/>
         <Carousel/>
+        <Stats/>
         <Divider/>
         <Cards/>
         <Divider/>
