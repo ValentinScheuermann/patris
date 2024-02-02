@@ -3,7 +3,8 @@ import {
     Navbar,
     Carousel,
     Footer,
-    Cards
+    Cards,
+    Divider
 } from '../../components/index';
 
 const Home = () => {
@@ -11,6 +12,9 @@ const Home = () => {
     <div>
         <Navbar/>
         <Carousel/>
+        <Divider/>
+        <Cards/>
+        <Divider/>
         <Cards/>
         <Footer/>
     </div>
