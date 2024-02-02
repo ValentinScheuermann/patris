@@ -5,6 +5,7 @@ import AboutUs from "./Aboutus/AboutUs";
 import Cards from "./Cards/Cards";
 import Divider from "./Divider/Divider";
 import Stats from "./Stats/Stats";
+import Navbar2 from "./NavBar2/Navbar2";
 
 export {
     Navbar,
@@ -13,5 +14,6 @@ export {
     AboutUs,
     Cards,
     Divider,
-    Stats
+    Stats,
+    Navbar2
 };

@@ -5,7 +5,8 @@ import {
   Footer,
   Cards,
   Divider,
-  Stats
+  Stats,
+  Navbar2
 } from '../../components/index';
 
 import padreyniñoImage from '../../assets/CardPics/padreyniño.jpg';
@@ -29,7 +30,7 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <Divider />
+      <Navbar2/>
       <Carousel />
       <Stats />
       <Divider />

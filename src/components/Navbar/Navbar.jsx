@@ -4,7 +4,7 @@ import './Navbar.css'
 const Navbar = () => {
   return (
 
-<div className="navbar bg-base-20">
+  <div className="navbar bg-[#2A6C3D] h-20">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
@@ -18,7 +18,8 @@ const Navbar = () => {
     </div>
   </div>
   <div className="navbar-center">
-    <a className="btn btn-ghost text-xl">Colegio Patris</a>
+   <a className="btn btn-ghost text-xl font-bold font-montserrat text-white">Colegio Patris</a>
+
   </div>
   <div className="navbar-end">
     <button className="btn btn-ghost btn-circle">
