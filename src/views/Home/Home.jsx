@@ -2,7 +2,8 @@ import React from 'react'
 import {
     Navbar,
     Carousel,
-    Footer
+    Footer,
+    Cards
 } from '../../components/index';
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
     <div>
         <Navbar/>
         <Carousel/>
+        <Cards/>
         <Footer/>
     </div>
   )
