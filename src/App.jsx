@@ -1,5 +1,8 @@
 import './App.css'
-import { Home } from './views/index';
+import { 
+  Home,
+  Aboutus
+ } from './views/index';
 import { Routes, Route } from "react-router-dom";
 
 
@@ -9,6 +12,8 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/Aboutus" element={<Aboutus />} />
+
     </Routes>
   )
 }
