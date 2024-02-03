@@ -6,7 +6,8 @@ import {
   Cards,
   Divider,
   Stats,
-  Navbar2
+  Navbar2,
+  Banner
 } from '../../components/index';
 
 import padreyniñoImage from '../../assets/CardPics/padreyniño.jpg';
@@ -32,6 +33,7 @@ const Home = () => {
       <Navbar />
       <Navbar2/>
       <Carousel />
+      <Banner/>
       <Stats />
       <Divider />
       <Cards cardData={cardData1} />

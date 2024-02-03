@@ -1,0 +1,7 @@
+.banner {
+    max-width: 100%; /* Ajusta el tamaño máximo al 100% del contenedor */
+    height: auto; /* Mantiene la proporción de aspecto original */
+    display: block; /* Elimina posibles márgenes y espacios en blanco alrededor de la imagen */
+    margin: 0 auto; /* Centra la imagen en el contenedor */
+    margin-bottom: 0px;
+  }
