@@ -26,7 +26,7 @@ const Navbar = () => {
     </div>
     <div className="navbar-center hidden lg:flex">
       <ul className="menu menu-horizontal px-1">
-        <li><a>Acerca del Colegio</a></li>
+        <li><a href='/Aboutus' >Acerca del Colegio</a></li>
         <li>
           <details>
             <summary>Actividades</summary>
