@@ -2,3 +2,10 @@
 
     margin-bottom: 0px;
 }
+.menu{
+    z-index: 2;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
