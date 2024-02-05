@@ -1,11 +1,14 @@
-.navbar {
 
-    margin-bottom: 0px;
-}
 .menu{
     z-index: 2;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+color: white;
+
+}
+.px-1{
+    font-size: 17px !important;
+    padding-left: 0.25rem;
+    padding-right: 25rem !important;
+}
+.p-2 {
+    color: #2A6C3D;
 }
