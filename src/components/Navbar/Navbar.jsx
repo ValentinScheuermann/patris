@@ -35,8 +35,10 @@ const Navbar = () => {
           <details>
             <summary>Actividades</summary>
             <ul className="p-2">
-              <li><a>Submenu 1</a></li>
-              <li><a>Submenu 2</a></li>
+              <li><a>Deportes</a></li>
+              <li><a>Arte</a></li>
+              <li><a>Campamentos</a></li>
+              <li><a>Eventos</a></li>
             </ul>
           </details>
         </li>
