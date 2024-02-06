@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.css'
+import logo from "../../assets/logo.png"
 
 const Navbar = () => {
   return (
@@ -22,10 +23,13 @@ const Navbar = () => {
           <li><a>Item 3</a></li>
         </ul>
       </div>
-      <a href='/' className="btn btn-ghost text-xl">Colegio Patris</a>
+      <a href='/'>
+      <img className="btn btn-ghost text-l" src={logo}/>
+      </a>
     </div>
     <div className="navbar-center hidden lg:flex">
       <ul className="menu menu-horizontal px-1">
+      <li><a href='/' >Inicio</a></li>
         <li><a href='/Aboutus' >Acerca del Colegio</a></li>
         <li>
           <details>
@@ -40,8 +44,12 @@ const Navbar = () => {
           <details>
             <summary>Niveles Educativos</summary>
             <ul className="p-2">
-              <li><a>Submenu 1</a></li>
-              <li><a>Submenu 2</a></li>
+              <li><a>Nivel Inicial - Jardin Maternal</a></li>
+              <li><a>Nivel Inicial - Jardin de Infantes</a></li>
+              <li><a>Nivel Primario</a></li>
+              <li><a>Nivel Secundario</a></li>
+              <li><a>Orientación y Psicopedagogía</a></li>
+              <li><a>Biblioteca</a></li>
             </ul>
           </details>
         </li>
@@ -49,8 +57,9 @@ const Navbar = () => {
           <details>
             <summary>Comunidad</summary>
             <ul className="p-2">
-              <li><a>Submenu 1</a></li>
-              <li><a>Submenu 2</a></li>
+              <li><a>TECHO - Construcciones</a></li>
+              <li><a>Acciones Solidarias</a></li>
+              <li><a>OMA</a></li>
             </ul>
           </details>
         </li>
